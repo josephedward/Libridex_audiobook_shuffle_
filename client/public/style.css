@@ -85,6 +85,11 @@ body {
   overflow-y: scroll !important;
 }
 
+.container{
+  background-color: white !important;
+  border: 3px black solid;
+}
+
 .controls {
   float: center !important;
 }

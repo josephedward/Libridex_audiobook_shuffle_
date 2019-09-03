@@ -43,9 +43,9 @@ function Search(props) {
               <option value="Short Stories">Short Stories</option>
               <option value="Science Fiction">Science Fiction</option>
               <option value="Sports Fiction">Sports Fiction</option>
+              <option value="True Story">True Crime</option>
               <option value="Westerns">Westerns</option>
-              <option value="Nonfiction">Nonfiction</option>
-            </datalist>
+              </datalist>
           </Form.Field>
         </Grid.Column>
         <Grid.Column>

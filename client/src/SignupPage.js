@@ -13,6 +13,7 @@ import Header1 from "./components/Header";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Navbar from "./components/Navbar";
 import axios from "axios";
 
 const padSty = {
@@ -55,7 +56,16 @@ class SignupPage extends React.Component {
   render() {
     return (
       <div className="All">
-        <Menu stackable fluid widths={3} className="blackborder header ">
+        {/* <Navbar/> */}
+        {/* <Menu stackable fluid widths={3} className="blackborder header ">
+
+        </Menu> */}
+    {/* <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a className="navbar-brand" href="/">
+        React Reading List
+      </a>
+    </nav> */}
+        {/* <Menu stackable fluid widths={3} className="blackborder header ">
           <Menu.Item className="tanish">
             <Header1 />
           </Menu.Item>
@@ -92,13 +102,14 @@ class SignupPage extends React.Component {
               <Signup />
             )}
           </Menu.Item>
-        </Menu>
+        </Menu> */}
         <Container
           fluid
 
           className="main center layout maroon width1000 border2"
        style={padSty}
        >
+         
           {/* <Segment > */}
           <Header
           // celled
